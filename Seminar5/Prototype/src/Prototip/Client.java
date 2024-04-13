@@ -21,7 +21,7 @@ public class Client implements  AbstractPrototype{
         this.listaAccesorii=listaAccesorii;
     }
 
-   public Client(){
+   private Client(){
 
     }
 

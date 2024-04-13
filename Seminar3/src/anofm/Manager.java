@@ -17,10 +17,11 @@ public class Manager {
 
     @Override
     public String toString() {
-        return "Manager{" +
-                "numeFirma='" + numeFirma + '\'' +
-                ", numeManager='" + numeManager + '\'' +
-                ", salariu=" + salariu +
-                '}';
+        final StringBuffer sb = new StringBuffer("Manager{");
+        sb.append("numeFirma='").append(numeFirma).append('\'');
+        sb.append(", numeManager='").append(numeManager).append('\'');
+        sb.append(", salariu=").append(salariu);
+        sb.append('}');
+        return sb.toString();
     }
 }

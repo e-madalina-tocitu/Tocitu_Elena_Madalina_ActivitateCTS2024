@@ -12,6 +12,8 @@ public class Raceala extends Medicament{
         this.valabilitate = valabilitate;
     }
 
+
+
     @Override
     public void afisareDetalii() {
         System.out.println("Medicamentul " + super.getDenumire() + " este un medicament de tip Raceala, are pretul de " + super.getPret() + " RON. Valabilitate: " + valabilitate + " luni.");

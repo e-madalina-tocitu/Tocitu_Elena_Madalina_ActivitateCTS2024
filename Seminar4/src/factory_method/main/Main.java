@@ -10,9 +10,9 @@ public class Main {
         Medicament med_2 = fabricaDurere.creareMedicament();
         FabricaGripa fabricaGripa = new FabricaGripa("Aspirina", 20);
         Medicament med_3 = fabricaGripa.creareMedicament();
-        System.out.println(med_1.afisareDetalii());
-        System.out.println(med_2.afisareDetalii());
-        System.out.println(med_3.afisareDetalii());
+//        System.out.println(med_1.afisareDetalii());
+//        System.out.println(med_2.afisareDetalii());
+//        System.out.println(med_3.afisareDetalii());
 
         FabricaMedicamente fabricaMedicamente = new FabricaRaceala("Paracetamol", 10);
         procesareMedicament(fabricaMedicamente);

@@ -10,6 +10,9 @@ public class ManagerRegistry {
     private ManagerRegistry() {
         manageri=new HashMap<>();
     }
+    public Manager getManager(String numeFirma){
+        return  manageri.get(numeFirma);
+    }
 
     public synchronized static ManagerRegistry getInstance(){
         if (instanta==null){
@@ -22,8 +25,6 @@ public class ManagerRegistry {
         manageri.putIfAbsent(numeFirma,new Manager(numeFirma,numeManager,salariu));
     }
 
-    public Manager getManager(String numeFirma){
-        return  manageri.get(numeFirma);
-    }
+
 
 }
